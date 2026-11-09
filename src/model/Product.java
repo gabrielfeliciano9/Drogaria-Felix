@@ -9,6 +9,7 @@ public class Product {
     public boolean requiresPrescription;
 
     public void display() {
+        //informações do produto
         System.out.println("-------------------------");
         System.out.println("Código: " + code);
         System.out.println("Nome: " + name);

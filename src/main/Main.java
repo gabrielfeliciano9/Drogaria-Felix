@@ -9,12 +9,13 @@ public class Main {
 
         Stock stock = new Stock();
         int option;
-
+        //mensagem boas vindas
         System.out.println("=================================");
         System.out.println("   Bem-vindo à Drogaria Félix!   ");
         System.out.println("=================================");
 
         do {
+            //tela inicial Drogaria
             System.out.println();
             System.out.println("1 - Cadastrar produto");
             System.out.println("2 - Listar estoque");

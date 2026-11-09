@@ -8,6 +8,7 @@ public class Stock {
     public int total = 0;
 
     public void registerProduct(Scanner teclado) {
+        //criação do produto
         if (total < 50) {
             Product p = new Product();
 
@@ -67,6 +68,7 @@ public class Stock {
     }
 
     public void listProducts() {
+        //lista os produtos cadastrados
         if (total == 0) {
             System.out.println("Nenhum produto cadastrado.");
         } else {
